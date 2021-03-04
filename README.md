@@ -1,4 +1,4 @@
-# M1399.000100 Computational Statistics @ SNU 2020
+# M1399.000100 Computational Statistics @ SNU 2021
 
 This is the course website for M1399.000100: "Computational Statistics" at Seoul National University in Spring 2021. Assignments, lecture notes, and open source code will all be available on this website.
 
@@ -29,7 +29,7 @@ Joong-Ho (Johann) Won
 
 * 수치적분 – 결정론적 및 몬테카를로 방법
 
-* 분포함수로부터의 난수 생성 – 마르코프 사슬 몬테카를로 방법
+* 분포함수로부터의 난수 생성 
 
 
 ## Course Overview
@@ -48,7 +48,7 @@ The following schedule is tentative, and is subject to change over the course.
 
 | Week | Topic | Textbook Chapter | Assignment | Due Date |
 |---| --- | --- | --- | --- | 
-| 1 (3/2)           | Computer Arithmetic [[notebook](./lectures/lecture1/arith.ipynb)] [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/won-j/M1399_000100-2021spring/HEAD?filepath=lectures%2Flecture1%2Farith.ipynb) | - | Homework 1 | 2021-03-28 | 
+| 1 (3/2)           | Computer Arithmetic [[notebook](./lectures/lecture1/arith.ipynb)] [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/won-j/M1399_000100-2021spring/HEAD?filepath=lectures%2Flecture1%2Farith.ipynb) | - | [Homework 1](./homework/hw1.md) | 2021-03-28 | 
 | 2 (3/8, 3/10)     | Computer Arithmetic | - |  |  |
 | 3 (3/15, 3/17)    | Direct methods for linear systems: LU decomposition <!--[[notebook](./lectures/lecture2/gelu.ipynb)] [[example](./lectures/lecture2/gelu.pdf)] [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/won-j/M1399_000100-2021spring/HEAD?filepath=lectures%2Flecture2%2Fgelu.ipynb)--> | 2장 |  |  |
 | 4 (3/22, 3/24)    | Direct methods for linear systems: LU decomposition | 2장 |  |  |
@@ -60,7 +60,7 @@ The following schedule is tentative, and is subject to change over the course.
 | 10 (5/3)   | Solving nonlinear equations <!--[[notebook]](./lectures/lecture6/nonlinear.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/won-j/M1399_000100-2021spring/HEAD?filepath=lectures%2Flecture6%2Fnonlinear.ipynb)--> | 4장 |  |   |
 | 11 (5/10, 5/12)   | Optimization <!--[[notebook]](./lectures/lecture7/optim.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/won-j/M1399_000100-2021spring/HEAD?filepath=lectures%2Flecture7%2Foptim.ipynb)--> | 4장 |  |  |
 | 12 (5/17)         | Numerical integration <!--[[notebook]](./lectures/lecture8/integration.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/won-j/M1399_000100-2021spring/HEAD?filepath=lectures%2Flecture8%2Fintegration.ipynb)--> | - |  |  |
-| 13 (5/24, 5/26)   | Random number generation <!--[[notebook]](./lectures/lecture9/rng.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/won-j/M1399_000100-2021spring/HEAD?filepath=lectures%2Flecture9%2Frng.ipynb)--> | 8장 | Homework 4 | 2021-06-14 |
+| 13 (5/24, 5/26)   | Random number generation <!--[[notebook]](./lectures/lecture9/rng.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/won-j/M1399_000100-2021spring/HEAD?filepath=lectures%2Flecture9%2Frng.ipynb)--> | 8장 | Homework 4 | 2021-06-13 |
 | 14 (5/31, 6/2)    | Monte Carlo integration <!--[[notebook]](./lectures/lecture10/mc.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/won-j/M1399_000100-2021spring/HEAD?filepath=lectures%2Flecture10%2Fmc.ipynb)--> | 9장 |  |  |
 | 15 (6/7, 6/9)     | Final Exam          |  |  |  |
 | 16 (6/14)         | Homework 4 Due      |  |  |  |
