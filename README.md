@@ -2,6 +2,11 @@
 
 This is the course website for M1399.000100: "Computational Statistics" at Seoul National University in Spring 2021. Assignments, lecture notes, and open source code will all be available on this website.
 
+## Announcements
+
+- 2021-04-14: Lecture notes for "iterative methods for linear systems" has been updated.
+- 2021-04-14: Hint for Homework 2 Q3-4 has been revised.
+
 ## Instructor 
 
 Joong-Ho (Johann) Won
