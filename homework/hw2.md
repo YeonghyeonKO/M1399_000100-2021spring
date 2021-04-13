@@ -53,7 +53,7 @@ again *in place*. That is, in addition to `A` overwritten by `LUdecomp`, vector 
     ```r
     LUsolve(A, b)
     ```
-which does **not** alter neither `A` nor `b` but solves $Ax=b$ by calling `LUdecomp`. 
+which does **not** alter neither `A` nor `b` but solves $Ax=b$ by calling `LUsolve0`. 
 Compare your results with the R expression `solve(A, b)`.
 
 Write your functions in a separate `.R` file within your branch. 
@@ -97,7 +97,7 @@ Write your functions in a separate `.R` file within your branch.
     recoverQ <- function(qrobj)
     ```
 \    
-    that recovers $Q$. (*Hint*. For $\mathbf{P}_i=\mathbf{I}-2\mathbf{v}_k\mathbf{v}_k^T$ with $\|\mathbf{v}_k\|=1$, $\mathbf{P}_1\mathbf{P}_2 \cdots \mathbf{P}_{n} = \mathbf{I}- \mathbf{V}\mathbf{T}\mathbf{V}^T$, where $\mathbf{V}=[\mathbf{v}_1 | \mathbf{v}_2 | \dotsb | \mathbf{v}_n]$ for some *upper triangular* matrix $\mathbf{T}$.)
+    that recovers $Q$. (*Hint*. <!--For $\mathbf{P}_i=\mathbf{I}-2\mathbf{v}_k\mathbf{v}_k^T$ with $\|\mathbf{v}_k\|=1$, $\mathbf{P}_1\mathbf{P}_2 \cdots \mathbf{P}_{n} = \mathbf{I}- \mathbf{V}\mathbf{T}\mathbf{V}^T$, where $\mathbf{V}=[\mathbf{v}_1 | \mathbf{v}_2 | \dotsb | \mathbf{v}_n]$ for some *upper triangular* matrix $\mathbf{T}$.--> $\mathbf{Q}=\mathbf{Q}\mathbf{I}$.)
 \    
     * Using your function, compute the QR decomposition of the matrices `A` and `B` of the previous question. Compare the orthogonality of the computed $Q$ matrix.
 
@@ -115,7 +115,7 @@ and is also available in R package \texttt{datasets}.
     * Using the R command `svd()`, list up the 7 singular values of $\mathbf{X}$. What is the condition number of $\mathbf{X}$?
     * Construct the Gram matrix $\mathbf{G} = \mathbf{X}^T\mathbf{X}$. List up the 7 singular values of $\mathbf{G}$. What is the condition number of $\mathbf{G}$?
 
-2. Using the function you wrote for Q2, compute the regression coefficients $\hat{\boldsymbol{\beta}}$, their standard errors, and variance estimate $\hat{\sigma}^2$. Verify your results using the R function \texttt{lm()}.
+2. Using the function you wrote for Q3, compute the regression coefficients $\hat{\boldsymbol{\beta}}$, their standard errors, and variance estimate $\hat{\sigma}^2$. Verify your results using the R function \texttt{lm()}.
 
 3. Using the Cholesky decomposition of $\mathbf{G}$, compute the regression coefficients $\hat{\boldsymbol{\beta}}$, their standard errors, and variance estimate $\hat{\sigma}^2$. Compare the results with the values of the above question.
 
