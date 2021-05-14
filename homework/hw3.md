@@ -13,13 +13,14 @@ Due 23:59 2021-05-23
 ## Q1. Contraction map
 
 Recall that function $F: [a,b] \rightarrow [a,b]$ is contractive if there exists a nonnegative constant $L<1$ such that
-\begin{align}\label{eqn:lipschitz}
-|F(x) - F(y)| \le L |x-y|
-\end{align}
+$$
+|F(x) - F(y)| \le L |x-y|  
+\tag{Lip}
+$$
 for all $x,y \in [a,b]$.
 
 
-1. Show that if $F$ is differentiable on $[a,b]$, then condtion \eqref{eqn:lipschitz} is equivalent to
+1. Show that if $F$ is differentiable on $[a,b]$, then condtion (Lip) is equivalent to
 	$$
 	|F'(x) | \le L
 	$$
@@ -28,11 +29,12 @@ for all $x,y \in [a,b]$.
 Now suppose we want to find a root of a differentiable function $f(x)$ on $(a,b)$. Consider the following iteration
 $$
 	x^{(t+1)} = x^{(t)} + \alpha  f(x^{(t)}) \quad (\alpha \neq 0).
+    \tag{Iter}
 $$
 
-2. When does iteration \eqref{eqn:fixedpoint} converge?
+2. When does iteration (Iter) converge?
 3. Discuss the advantage of introducing the $\alpha$.
-4. Relate iteration \eqref{eqn:fixedpoint} with the gradient descent method for minimization of a twice differentiable function.
+4. Relate iteration (Iter) with the gradient descent method for minimization of a twice differentiable function.
 
 
 ## Q2. Optimization
