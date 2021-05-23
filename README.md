@@ -66,7 +66,7 @@ The following schedule is tentative, and is subject to change over the course.
 | 10 (5/3)   | Optimization [[notebook]](./lectures/lecture7/optim.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/won-j/M1399_000100-2021spring/HEAD?filepath=lectures%2Flecture7%2Foptim.ipynb)  | 4장 |  |   |
 | 11 (5/10, 5/12)   | Optimization | 4장 |  |  |
 | 12 (5/17)         | Numerical integration [[notebook]](./lectures/lecture8/integration.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/won-j/M1399_000100-2021spring/HEAD?filepath=lectures%2Flecture8%2Fintegration.ipynb) | - |  |  |
-| 13 (5/24, 5/26)   | Random number generation <!--[[notebook]](./lectures/lecture9/rng.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/won-j/M1399_000100-2021spring/HEAD?filepath=lectures%2Flecture9%2Frng.ipynb)--> | 8장 | Homework 4 | 2021-06-13 |
+| 13 (5/24, 5/26)   | Random number generation [[notebook]](./lectures/lecture9/rng.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/won-j/M1399_000100-2021spring/HEAD?filepath=lectures%2Flecture9%2Frng.ipynb) | 8장 | Homework 4 | 2021-06-13 |
 | 14 (5/31, 6/2)    | Monte Carlo integration <!--[[notebook]](./lectures/lecture10/mc.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/won-j/M1399_000100-2021spring/HEAD?filepath=lectures%2Flecture10%2Fmc.ipynb)--> | 9장 |  |  |
 | 15 (6/7, 6/9)     | Final Exam          |  |  |  |
 | 16 (6/14)         | Homework 4 Due      |  |  |  |
