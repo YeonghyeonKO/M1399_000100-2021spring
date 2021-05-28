@@ -4,6 +4,7 @@ This is the course website for M1399.000100: "Computational Statistics" at Seoul
 
 ## Announcements
 
+- 2021-05-28: Homework 4 has been posted.
 - 2021-05-22: Homework 3 deadline has been extended to 2021-05-26
 - 2021-04-14: Lecture notes for "iterative methods for linear systems" has been updated.
 - 2021-04-14: Hint for Homework 2 Q3-4 has been revised.
@@ -66,9 +67,9 @@ The following schedule is tentative, and is subject to change over the course.
 | 10 (5/3)   | Optimization [[notebook]](./lectures/lecture7/optim.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/won-j/M1399_000100-2021spring/HEAD?filepath=lectures%2Flecture7%2Foptim.ipynb)  | 4장 |  |   |
 | 11 (5/10, 5/12)   | Optimization | 4장 |  |  |
 | 12 (5/17)         | Numerical integration [[notebook]](./lectures/lecture8/integration.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/won-j/M1399_000100-2021spring/HEAD?filepath=lectures%2Flecture8%2Fintegration.ipynb) | - |  |  |
-| 13 (5/24, 5/26)   | Random number generation [[notebook]](./lectures/lecture9/rng.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/won-j/M1399_000100-2021spring/HEAD?filepath=lectures%2Flecture9%2Frng.ipynb) | 8장 | Homework 4 | 2021-06-13 |
-| 14 (5/31, 6/2)    | Monte Carlo integration <!--[[notebook]](./lectures/lecture10/mc.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/won-j/M1399_000100-2021spring/HEAD?filepath=lectures%2Flecture10%2Fmc.ipynb)--> | 9장 |  |  |
-| 15 (6/7, 6/9)     | Final Exam          |  |  |  |
-| 16 (6/14)         | Homework 4 Due      |  |  |  |
+| 13 (5/24, 5/26)   | Random number generation [[notebook]](./lectures/lecture9/rng.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/won-j/M1399_000100-2021spring/HEAD?filepath=lectures%2Flecture9%2Frng.ipynb) | 8장 | [Homework 4](./homework/hw4.md) [[pdf]](./homework/hw4.pdf) | 2021-06-13 |
+| 14 (5/31, 6/2)    | Monte Carlo integration [[notebook]](./lectures/lecture10/mc.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/won-j/M1399_000100-2021spring/HEAD?filepath=lectures%2Flecture10%2Fmc.ipynb) | 9장 |  |  |
+| 15 (6/7, 6/9)     | Monte Carlo integration          |  |  |  |
+| 16 (6/14)         | Final Exam      |  |  |  |
 
 
